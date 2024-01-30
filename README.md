@@ -2,7 +2,7 @@
 
 Simple To-Do List web application. Users are able to add tasks by typing in the input field and pressing enter or clicking an "Add" button.
 Each task has a checkbox to mark it as completed. Completed tasks have a visual indication (strike-through text, color change and "COMPLETED" text). 
-Includes a button to delete the task as well as another button to clear all completed tasks at once.
+Includes a button to delete each task as well as another button to clear all completed tasks at once.
 
 -HTML for structuring the page.
 -CSS/Bootstrap for styling the components.
