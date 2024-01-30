@@ -11,8 +11,7 @@ Includes a button to delete the task as well as another button to clear all comp
 -Added animations and transitions for a smoother user experience.
 -Made responsive for different screen sizes.
 
-To run locally, clone repository and run the commands:
-  - "npm -i" to install any missing depedencies
+To run locally, clone repository (git clone https://github.com/Kostas-Antzoulidis/React-To-Do-List-App.git) and in the base foldier run the commands:
   - "npm start" to run on [localhost:](http://localhost:3000)
 
 Following is the standard Bootstrap documentation.
