@@ -1,0 +1,166 @@
+
+.row{
+    width: 90%;
+    /* margin: 1rem; */
+    justify-self: center;
+    justify-content: center;
+    transition: all 0.6s ease;
+}
+
+
+.add-task {
+    transition: all 0.6s ease;
+}
+  
+.add-task input {
+    transition: all 0.6s ease;
+}
+
+.task-list {
+    transition: all 0.6s ease;
+}
+
+
+/* UL AND LI CLASSES */
+
+ul{
+    /* background-color: #00000027; */
+    transition: all 0.6s ease;
+}
+
+li {
+    background-color: #f0f0f069;
+    display: flex;
+    text-align: start;
+    align-items: start;
+    justify-content: start;
+    border: 1px solid #00000031;
+    /* border-radius: 3px; */
+    transition: all 0.6s ease;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.116);
+    scale: 1.01;
+    transition: all 0.6s ease;
+}
+
+
+
+/* CLASSES HELPING WITH EYE CANDY EFFECTS */
+.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+    transition: all 0.6s ease;
+}
+
+.completed-box {
+    background-color: #30362f33;
+    transition: all 0.6s ease;
+}
+
+.completedText{
+    cursor:default;
+    transition: all 0.6s ease;
+    margin-left: 10px;
+}
+
+
+.form-check-input{
+    margin-top: 2rem !important;
+    justify-self: start;
+    cursor:pointer;
+    transition:3;
+}
+
+.form-check-label{
+    cursor:pointer;
+    margin-left: 10px;
+}
+
+
+
+
+/* CLASSES HELPING WITH VISIBILITY */
+.invisible{
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+
+.visible{
+    opacity: 1;
+    transition: all 0.6s ease;
+}
+
+.my_but{
+    width: 35% !important;
+    font-size: 0.5rem !important;
+    margin-right: -1rem !important;
+    margin-top: 0.5rem !important;
+}
+
+
+/* CLASSES HELPING WITH COMPATIBLE VISIBILITY ON MOBILE*/
+
+@media (max-width: 700px) {
+    .form-check-label {
+      font-size: 1rem !important;
+    }
+    .completedText {
+        font-size: 0.6rem !important;
+      }
+    .my_but{
+        font-size: 1rem !important;
+        width: 35% !important;
+        margin-right: -1rem !important;
+    }
+    .form-check-input{
+        margin-top: 1rem !important;
+        margin-left: -2.2rem !important;
+        justify-self: start;
+        cursor:pointer;
+        transition: all 0.6s ease;
+        scale: 2;
+    }
+  }
+
+  @media (min-width: 700px) {
+    .form-check-label {
+      font-size: 1.5rem !important;
+      margin-left: 80px;
+    }
+    .completedText {
+        font-size: 0.9rem !important;
+        margin-left: 80px;
+      }
+    .form-check-input{
+        margin-top: 1rem !important;
+        justify-self: start;
+        cursor:pointer;
+        transition: all 0.6s ease;
+        scale: 2;
+    }
+    .my_but{
+        width: 25% !important;
+    }
+  }
+
+
+  @media (min-width: 1100px) {
+    .my_but{
+        width: 15% !important;
+    }
+    .form-check-label {
+      font-size: 2.5rem !important;
+    }
+    .form-check-input{
+        margin-top: 2rem !important;
+        justify-self: start;
+        cursor:pointer;
+        transition: all 0.6s ease;
+        scale: 3;
+    }
+  }
+
